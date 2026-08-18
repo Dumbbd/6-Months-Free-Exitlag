@@ -14,7 +14,7 @@ color 07
 echo.
 
 :: ---------------------------------------------
-::  FAKE LOADING LINES
+::   LOADING 
 :: ---------------------------------------------
 call :loadline "Initializing modules"
 call :loadline "Connecting to server"
@@ -37,7 +37,7 @@ if "%key%"=="4" exit
 goto waitkey
 
 :: ---------------------------------------------
-:: subroutine: fake spinner loading line
+:: subroutine: spinner loading line
 :: ---------------------------------------------
 :loadline
 set "msg=%~1"
